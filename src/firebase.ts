@@ -16,7 +16,7 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 export const firebaseConfig = {
-  apiKey: 'AIzaSyAMifcZweS5BG3BfMQpjbbDP-pkF9cow2s',
+  apiKey: '',
   authDomain: 'shepherd-app-382114.firebaseapp.com',
   projectId: 'shepherd-app-382114',
   storageBucket: 'shepherd-app-382114.appspot.com',
