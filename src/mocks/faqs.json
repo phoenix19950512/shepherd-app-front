@@ -1,0 +1,80 @@
+{
+  "AI": [
+    {
+      "title": "What Language Models (LMs) does your AI use?",
+      "content": "Shepherd uses state-of-the-art language models developed by OpenAI, including GPT-3.5 and GPT-4. These models are designed to understand and generate human-like text, allowing Shepherd to engage with students in a conversational manner."
+    },
+    {
+      "title": "How accurate are the AI's responses?",
+      "content": "Shepherd is designed to provide accurate and reliable responses. However, like any AI-enabled tool, it is not perfect and the accuracy may vary based on the complexity of the query. It's constantly learning and improving, and any inaccuracies detected are fed back into the system to improve future responses."
+    },
+    {
+      "title": "Do the language models undergo continuous training?",
+      "content": "Yes, Shepherd is based on continual learning principles. It evolves and improves over time, leveraging the interactions it has with users to enhance the accuracy and relevancy of its responses."
+    },
+    {
+      "title": "Can I report any inaccuracies in the Shepherd's responses?",
+      "content": "Yes, we highly encourage users to report any inaccuracies they encounter. This feedback is invaluable in refining our AI and ensuring it provides the most accurate information possible. In the chatbots, you will see thumbs ups and thumbs down to flag inaccuracies. You should also email us at AI@shepherdlearn.com"
+    }
+  ],
+  "Tutors": [
+    {
+      "title": "How do you select tutors for the platform?",
+      "content": "Our tutors are carefully selected based on their expertise, teaching experience, and passion for helping students learn. Our tutors are currently on-campus tutors in very selective institutions or partner programs where they have been vetted."
+    },
+    {
+      "title": "Can I choose my tutor?",
+      "content": "Yes! You get to choose your own tutor by visiting the marketplace, looking at their profile, watching their intro video and seeing their review. You also get to have the first session free to see if you're a real match."
+    },
+    {
+      "title": "How does the platform help tutors personalize their teaching?",
+      "content": "The platform provides tutors with data about your learning process, including areas of struggle, which they can use to tailor their teaching to your needs."
+    },
+    {
+      "title": "Can I schedule a tutoring session at any time?",
+      "content": "Yes. As long as the tutor you need is available, you can select a tutor at any time."
+    }
+  ],
+  "Data": [
+    {
+      "title": "How do you protect my data?",
+      "content": "We take data security very seriously. We have robust measures in place to protect your data, and we're compliant with all relevant data protection regulations."
+    },
+    {
+      "title": "What data do you collect?",
+      "content": "We collect data you provide, infer data from your study sessions, performance on quizzes, areas of struggle, and other aspects of your learning. This data helps Shepherd personalize your learning experience."
+    },
+    {
+      "title": "Do you share my data with third parties?",
+      "content": "We won't share your specific data with third parties unless you give explicit permission. We anonymize and aggregate data and share with third parties e.g., schools who are looking to see how students are improving."
+    }
+  ],
+  "Pricing": [
+    {
+      "title": "How much does it cost to use this platform?",
+      "content": "Shepherd is free for the first month and after that we start charging a monthly fee of $8 for our base offering and $15 to get access to the entire suite. You can also reach out to your schools and have them bring Shepherd to your school at a huge discount to you."
+    },
+    {
+      "title": "Do I have to pay extra for human tutors? ",
+      "content": "Yes. Tutoring fees are separate from Shepherd's fees and all depends on what you agree on with your tutor. We will continue to look for ways to make one-on-one tutoring very affordable by increasing the productivity of the tutors with AI tools and only chagrin to cover our cost."
+    },
+    {
+      "title": "Do you make money from tutors?",
+      "content": "We are big believers in one-on-one tutoring being important in education and we want to democratize access as much as possible. We currently only charge to cover the cost of the session (i.e video conferencing, payment costs and support). We are still testing the pricing here to make sure we can continue to support, but we want to make it as cheap as possible! If this changes, we will let everyone - learners and tutors - know."
+    },
+    {
+      "title": "What's the cancellation policy?",
+      "content": "We hope you don't leave the Barn! But you can cancel anytime! You will be able to export your documents and flashcards."
+    }
+  ],
+  "General": [
+    {
+      "title": "Why should I sign up?",
+      "content": "Great question! Shepherd increases your studying efficiency by centralizing all your learning resources in one place. Shepherd cuts down your study time by leveraging best in class AI tools to help you create flashcards, understand your notes, and identify your weak points. Shepherd also improves your learning outcomes by observing your strengths and weaknesses and providing adaptive tests to see where your gaps are and connecting you with all you need to improve."
+    },
+    {
+      "title": "What subjects can I study on the platform?",
+      "content": " Shepherd is subject-agnostic. It's here to guide you on any topic you want."
+    }
+  ]
+}

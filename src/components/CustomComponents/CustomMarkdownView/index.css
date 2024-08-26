@@ -1,0 +1,266 @@
+.custom_markdown {
+  padding: 10px 15px;
+}
+
+.custom_markdown ul {
+  list-style-type: disc;
+}
+
+.custom_markdown ol {
+  list-style-type: decimal;
+}
+
+.custom_markdown p + p,
+.custom_markdown p + *,
+.custom_markdown h1 + *,
+.custom_markdown h2 + *,
+.custom_markdown h3 + *,
+.custom_markdown h4 + *,
+.custom_markdown h5 + *,
+.custom_markdown h6 + *,
+.custom_markdown ul + *,
+.custom_markdown ol + *,
+.custom_markdown li + *,
+.custom_markdown blockquote + *,
+.custom_markdown pre + *,
+.custom_markdown hr + *,
+.custom_markdown table + *,
+.custom_markdown dl + * {
+  margin: 10px 0;
+}
+
+.custom_markdown code {
+  color: rgb(32, 125, 247);
+}
+
+.custom_markdown .clickable-keyword {
+  color: blue;
+  cursor: pointer;
+}
+
+.custom_markdown .clickable-keyword:hover {
+  text-decoration: underline;
+}
+
+/* CSS for variables */
+.custom_markdown .token.keyword {
+  color: #fc9b65;
+}
+
+.custom_markdown pre {
+  white-space: pre-wrap;
+  padding: 12px;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+.custom_markdown li {
+  margin-left: 10px;
+}
+
+/* Styling for h1 */
+.custom_markdown h1 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Styling for h2 */
+.custom_markdown h2 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Styling for h3 */
+.custom_markdown h3 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Styling for h4 */
+.custom_markdown h4 {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Styling for h5 */
+.custom_markdown h5 {
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Styling for h6 */
+.custom_markdown h6 {
+  font-size: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+}
+
+/* Scrollbar styling for code blocks */
+.custom_markdown pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom_markdown pre::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.custom_markdown pre::-webkit-scrollbar-track {
+  background: #f7f7f7;
+  border-radius: 4px;
+}
+
+.custom_markdown pre code {
+  white-space: pre-wrap;
+  padding: 12px;
+  border-radius: 8px;
+  text-indent: 20px;
+  display: contents;
+  font-size: 10.5px;
+}
+
+.custom_markdown pre code .punctuation {
+  display: contents;
+  margin-right: 5px;
+}
+
+/* Styling for specific code tags within the code block */
+.custom_markdown pre code span.token.tag {
+  color: #fc9b65;
+}
+
+/* Styling for attributes within HTML tags */
+.custom_markdown pre code span.token.attr-name {
+  color: black;
+}
+
+/* Styling for attribute values within HTML tags */
+.custom_markdown pre code span.token.attr-value {
+  color: #27ae60;
+}
+
+/* Variables and constants */
+.custom_markdown pre code span.token.keyword {
+  color: #e67e22;
+}
+
+/* String literals */
+.custom_markdown pre code span.token.string {
+  color: black;
+}
+
+/* Numbers */
+.custom_markdown pre code span.token.number {
+  color: #9b59b6;
+}
+
+/* Comments */
+.custom_markdown pre code span.token.comment {
+  color: #6a9955;
+}
+
+/* Styling for token tags */
+.custom_markdown pre .token + .token.punctuation {
+  margin-left: -1.5em;
+}
+
+.memoized-react-markdown pre {
+  border-radius: 1rem;
+}
+
+.memoized-react-markdown ol li code {
+  font-weight: bolder;
+}
+
+.memoized-react-markdown table {
+  table-layout: auto;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.memoized-react-markdown table {
+  margin: 1em 0;
+}
+.memoized-react-markdown table thead {
+  border-bottom-width: 1px;
+}
+
+.memoized-react-markdown table thead tr {
+  border-bottom-width: 1px;
+  transition: all 0.3s;
+}
+
+.memoized-react-markdown table thead tr th,
+.memoized-react-markdown table tbody tr td {
+  text-align: center;
+}
+
+.memoized-react-markdown table thead tr th:first-child,
+.memoized-react-markdown table tbody tr td:first-child {
+  text-align: left;
+}
+
+.memoized-react-markdown table thead tr th:last-child,
+.memoized-react-markdown table tbody tr td:last-child {
+  text-align: right;
+}
+
+.memoized-react-markdown table thead tr:hover,
+.memoized-react-markdown table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.memoized-react-markdown table thead tr th {
+  height: 2.5rem;
+  white-space: nowrap;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
+  color: hsv(240, 3.8%, 46.1%);
+}
+
+.memoized-react-markdown table tbody tr td {
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Code block styling */
+.memoized-react-markdown pre {
+  background-color: #fff;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  max-height: none;
+}
+
+.memoized-react-markdown
+  pre
+  div.relative.w-full.font-sans.codeblock.bg-zinc-950.rounded-xl {
+  background-color: #344c6c;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-top-left-radius: 1.875rem;
+  border-top-right-radius: 1.875rem;
+}
+
+.memoized-react-markdown
+  pre
+  div.relative.w-full.font-sans.codeblock.bg-zinc-950.rounded-xl
+  div:first-child {
+  border: 1px solid #80808040;
+  background-color: #fff;
+  color: #cdd1d5;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-weight: 700;
+}

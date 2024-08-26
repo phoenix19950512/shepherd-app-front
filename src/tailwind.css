@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .shadow-element {
+    --tw-shadow-colored: 0 0 0 0.5px var(--tw-shadow-color),
+      0 0 20px var(--tw-shadow-color), 0 1px 5px var(--tw-shadow-color);
+    --tw-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05),
+      0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}

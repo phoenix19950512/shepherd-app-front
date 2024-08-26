@@ -1,0 +1,112 @@
+[
+  {
+    "tier": "Free",
+    "price": "$0",
+    "cycle": "/month",
+    "subscription": "",
+    "value": [
+      "Ad supported",
+      "AI powered by GPT-3.5",
+      "Access to tutor marketplace",
+      "Unlimited manual flashcard creation",
+      "40 AI-generated Flashcards",
+      "40 AI-generated Quizzes",
+      "Adaptive quizzes",
+      "Upload files up to 5 mb limit per file",
+      "Take notes in Notion-style editor",
+      "15 questions per day to chatbot",
+      "Smart reminders",
+      "Study analytics"
+    ],
+    "priceId": "NA",
+    "lookup_key": "free"
+  },
+  {
+    "tier": "Basic",
+    "price": "$4.99",
+    "cycle": "/month",
+    "subscription": "[Try it Free for 2 weeks] $48/year (20% discount)",
+    "value": [
+      "Ad supported",
+      "AI powered by GPT-3.5",
+      "Access to tutor marketplace",
+      "Unlimited manual flashcard creation",
+      "500 AI-generated Flashcards",
+      "500 AI-generated Quizzes",
+      "Adaptive quizzes",
+      "Upload files up to 10 mb limit per file",
+      "Take notes in Notion-style editor",
+      "30 questions per day to chatbot",
+      "Smart reminders",
+      "Study analytics"
+    ],
+    "priceId": "REACT_APP_STRIPE_PRICE_BASIC_MONTHLY",
+    "lookup_key": "basic_monthly"
+  },
+  {
+    "tier": "Basic",
+    "price": "$49.99",
+    "cycle": "/year",
+    "subscription": "[Try it Free for 2 weeks] $48/year (20% discount)",
+    "value": [
+      "Ad supported",
+      "AI powered by GPT-3.5",
+      "Access to tutor marketplace",
+      "Unlimited manual flashcard creation",
+      "500 AI-generated Flashcards",
+      "500 AI-generated Quizzes",
+      "Adaptive quizzes",
+      "Upload files up to 10 mb limit per file",
+      "Take notes in Notion-style editor",
+      "30 questions per day to chatbot",
+      "Smart reminders",
+      "Study analytics"
+    ],
+    "priceId": "REACT_APP_STRIPE_PRICE_BASIC_YEARLY",
+    "lookup_key": "basic_yearly"
+  },
+  {
+    "tier": "Premium",
+    "price": "$14.99",
+    "cycle": "/month",
+    "subscription": "Premium [Try it Free for 4 weeks] $135/year (25% discount)",
+    "value": [
+      "Everything in Basic",
+      "Focused studying: No ads",
+      "AI powered by GPT-4",
+      "Access to stored videos and transcripts of tutor sessions",
+      "Unlimited AI-generated Flashcards/month",
+      "Unlimited AI-generated Quizzes/month",
+      "Upload files up to 100mb limit per file",
+      "Import/Export flashcards from CSV (e.g., Anki)",
+      "200 questions per day to chatbots",
+      "Study plan (coming soon)",
+      "Research assistant (coming soon)"
+    ],
+    "priceId": "REACT_APP_STRIPE_PRICE_PREMIUM_MONTHLY",
+    "popular": true,
+    "lookup_key": "premium_monthly"
+  },
+  {
+    "tier": "Premium",
+    "price": "$149.99",
+    "cycle": "/year",
+    "subscription": "Premium [Try it Free for 4 weeks] $135/year (25% discount)",
+    "value": [
+      "Everything in Basic",
+      "Focused studying: No ads",
+      "AI powered by GPT-4",
+      "Access to stored videos and transcripts of tutor sessions",
+      "Unlimited AI-generated Flashcards/month",
+      "Unlimited AI-generated Quizzes/month",
+      "Upload files up to 100mb limit per file",
+      "Import/Export flashcards from CSV (e.g., Anki)",
+      "200 questions per day to chatbots",
+      "Study plan (coming soon)",
+      "Research assistant (coming soon)"
+    ],
+    "priceId": "REACT_APP_STRIPE_PRICE_PREMIUM_YEARLY",
+    "popular": false,
+    "lookup_key": "premium_yearly"
+  }
+]

@@ -1,98 +1,34 @@
-Contribution: 2024-08-12 20:00
+# Shepherd App (Front-end)
 
-Contribution: 2024-08-12 20:01
+This is the front-end app for ShepherdTutors, written in React and bootstrapped with `create-react-app`.
 
-Contribution: 2024-08-13 20:00
+## Launching project locally
 
-Contribution: 2024-08-13 20:01
+1. Pull the repository to your local environment by running `git pull https://github.com/shepherdtutors/shepherd-app.git` in your terminal.
+2. Run `npm install` to install the project's dependencies.
+3. Run `npm run prepare` to set up husky, which we use for pre-commits.
+4. Run `npm run start` to launch the project on `localhost:3000`.
+   PRO-TIP: Favor `npm` over `yarn`. Funny things can happen when your package-lock.json clashes with this project's yarn.lock.
 
-Contribution: 2024-08-13 20:02
+## Additional helpful scripts
 
-Contribution: 2024-08-13 20:03
+1. `npm run lint` — to run eslint on your code
+2. `npm run lint-and-fix` to detect and fix linting errors.
+3. `npm run build` to create an optimized production build of the React code.
+4. `npm run prettier-format` for prettier formatting. Applies global prettier fixes to the codebase.
+5. `npm run analyze` to analyze your build.
 
-Contribution: 2024-08-13 20:04
+## Branch naming
 
-Contribution: 2024-08-13 20:05
+1. The `main` branch serves the production code.
+2. The `dev` branch serves the dev code.
+3. We have no strict requirements about how you should name your own branches, though something like `{type}/{scope}` is nice (an example would be `feature/pdf-viewer` that tells us you're creating the pdf-viewer feature on that branch.)
 
-Contribution: 2024-08-13 20:06
+## Contributing
 
-Contribution: 2024-08-13 20:07
+1. Ensure your pre-commits return `everything is awesome`.
+2. Ensure your code passes the Netlify deploy pipeline (all green checkmarks, no red x'es).
+3. Have at least one other project contributor review your code before merging with either the `dev` or `main` branch.
+4. Do not use the force. Do not force-push. If you have a nasty git resolution problem, shoot an SOS message in the Slack channel, and one of your colleagues will be around to assist!
 
-Contribution: 2024-08-13 20:08
-
-Contribution: 2024-08-15 20:00
-
-Contribution: 2024-08-15 20:01
-
-Contribution: 2024-08-15 20:02
-
-Contribution: 2024-08-15 20:03
-
-Contribution: 2024-08-15 20:04
-
-Contribution: 2024-08-15 20:05
-
-Contribution: 2024-08-16 20:00
-
-Contribution: 2024-08-16 20:01
-
-Contribution: 2024-08-19 20:00
-
-Contribution: 2024-08-19 20:01
-
-Contribution: 2024-08-19 20:02
-
-Contribution: 2024-08-19 20:03
-
-Contribution: 2024-08-19 20:04
-
-Contribution: 2024-08-19 20:05
-
-Contribution: 2024-08-19 20:06
-
-Contribution: 2024-08-19 20:07
-
-Contribution: 2024-08-19 20:08
-
-Contribution: 2024-08-19 20:09
-
-Contribution: 2024-08-20 20:00
-
-Contribution: 2024-08-20 20:01
-
-Contribution: 2024-08-20 20:02
-
-Contribution: 2024-08-20 20:03
-
-Contribution: 2024-08-20 20:04
-
-Contribution: 2024-08-21 20:00
-
-Contribution: 2024-08-21 20:01
-
-Contribution: 2024-08-21 20:02
-
-Contribution: 2024-08-21 20:03
-
-Contribution: 2024-08-21 20:04
-
-Contribution: 2024-08-21 20:05
-
-Contribution: 2024-08-21 20:06
-
-Contribution: 2024-08-22 20:00
-
-Contribution: 2024-08-22 20:01
-
-Contribution: 2024-08-22 20:02
-
-Contribution: 2024-08-22 20:03
-
-Contribution: 2024-08-22 20:04
-
-Contribution: 2024-08-22 20:05
-
-Contribution: 2024-08-22 20:06
-
-Contribution: 2024-08-22 20:07
-
+Happy coding, and LGTM!

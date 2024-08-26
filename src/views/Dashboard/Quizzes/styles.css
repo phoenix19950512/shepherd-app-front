@@ -1,0 +1,30 @@
+.quiz-header-container {
+  width: 100%;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  color: #e5e6e6;
+}
+
+.count-badge {
+  display: inline-block;
+  font-size: 0.875rem;
+  background-color: #e5e7eb;
+  padding: 0 10px;
+  border-radius: 6px;
+  color: hsl(220, 9%, 46%);
+  margin: 0 8px;
+}
+
+.item-menu-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  border: 0.6px solid #eaeaeb;
+  box-shadow: 0 2px 10px rgba(63, 81, 94, 0.1);
+}

@@ -1,0 +1,21 @@
+.arrow-icon {
+  position: relative;
+  bottom: 25px;
+  width: 20px;
+  height: 20px;
+}
+.day {
+  text-align: center;
+}
+.day.selected {
+  background-color: #dbeafe;
+  border-radius: 2.25rem;
+  color: #3b82f6;
+}
+.day .date {
+  margin-top: -5px;
+  color: #b5b6bb;
+}
+.day.selected .date {
+  color: #6e7682;
+}
